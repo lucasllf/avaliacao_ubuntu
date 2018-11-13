@@ -2,6 +2,8 @@ echo fazendo backup da area de trabalho
 
 sleep 2
 
+cd /home/lisboa/area de trabalho/
+
 
 cp -rf * /backup
 
