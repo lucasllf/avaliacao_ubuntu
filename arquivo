@@ -1,0 +1,7 @@
+echo Download do arquivo
+cd /home/lisboa/Downloads
+echo digite o link do arquivo a ser baixado
+sleep 2
+read link
+wget '$link'
+echo Download realizado com sucesso!

@@ -1,0 +1,51 @@
+echo fazendo backup da area de trabalho
+
+sleep 2
+
+
+cp -rf * /backup
+
+
+echo backup finalizado!
+
+
+echo fazendo backup da Downloads
+
+
+sleep 2
+
+
+cd /home/lisboa/Downloads
+
+
+cp -rf * /backup
+
+
+echo backup finalizado!
+
+
+echo fazendo backup de Documentos
+
+
+sleep 2
+
+
+cd /home/lisboa/Documentos
+
+
+cp -rf * /backup
+
+
+echo backup finalizado!
+
+echo fazendo backup de Imagens
+
+sleep 2
+
+
+cd /home/lisboa/Imagens
+
+
+cp -rf * /backup
+
+echo backup finalizado!

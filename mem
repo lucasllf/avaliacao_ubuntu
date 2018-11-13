@@ -1,0 +1,1 @@
+top | grep load >> /home/lisboa/Área\ de\ Trabalho/mem.txt
